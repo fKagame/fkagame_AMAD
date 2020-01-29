@@ -1,0 +1,79 @@
+{
+	"Student":[
+  		{
+    		"name":"Loic Ntwari",
+    		"picture":"HarryPotter.jpg",
+   			"bio":"Aspiring Data scientist | Grad Student @ Carnegie Mellon University Africa",
+			"program": "Masters of Sc. in Information Technology",
+			"tel":"+250788561946",
+    		"info":"https://www.linkedin.com/in/loicntwali/"
+  		},
+  		{
+		    "name":"Fraterne Kagame",
+		    "picture":"Ron_Weasley.jpg",
+		    "bio":"Cybersecurity analyst and software engineer with +3 years of experience in networking and software development.",
+			"program": "Masters of Sc. in Electrical Engineering",
+			"tel":"+250788779077",
+			"info":"https://www.linkedin.com/in/fraternekagame/"
+		},
+		{
+		    "name":"Julius Mkumbo",
+		    "picture":"Hermione_Granger.jpg",
+		    "bio":"Experienced Software Engineer and Data scientist with a demonstrated history of working in the healthcare industry. Skilled in Machine learning, Statistical Data Analysis, Computer Science, and Business Intelligence",
+			"program": "Masters of Sc. in Information Technology",
+			"tel":"+255716008507",
+			"info":"https://www.linkedin.com/in/julius-mkumbo-7b685031/"
+		},
+		{
+			"name":"Rahma Mohamed",
+		    "picture":"Hagrid.jpg",
+		    "bio":"I’m a software developer with a passion for education to better my community with the use of IT. My expertise includes software development and data analysis and interpretation.",
+			"program": "Masters of Sc. in Information Technology",
+			"tel":"+250789448633",
+			"info":"https://www.linkedin.com/in/rahmedsamaroon/"
+		},
+		{
+		    "name":"Sabin Sheja",
+		    "picture":"Albus_Dumbledore2.jpg",
+		    "bio":"Graduate Teaching Assistant at Carnegie Mellon University Africa",
+			"program": "Masters of Sc. in Information Technology",
+			"tel":"+250786182098",
+			"info":"https://www.linkedin.com/in/sabin-sheja-365a57125/"
+		},
+		{
+		    "name":"Mizerere Jean",
+		    "picture":"Severus_Snape.jpg",
+		    "bio":"Be aware of information security and use systems which are not vulnerable to internet attacks. Work hard to achieve success.",
+			"program": "Masters of Sc. in Electrical Engineering",
+			"tel":"+250786635688",
+			"info":"https://www.linkedin.com/in/mizerere/"
+		},
+
+		{
+			"name":"Mizerere Jean",
+			"picture":"Severus_Snape.jpg",
+			"bio":"Be aware of information security and use systems which are not vulnerable to internet attacks. Work hard to achieve success.",
+			"program": "Masters of Sc. in Electrical Engineering",
+			"tel":"+250786635688",
+			"info":"https://www.linkedin.com/in/mizerere/"
+		},
+
+		{
+			"name":"Butera David",
+			"picture":"Severus_Snape.jpg",
+			"bio":"Data scientist at the intersection of business and technology aiming to incorporate strategic use of IT in enterprise with hands on experience in market planning for high tech companies and provide support to tech start-ups. I aspire to be an IT entrepreneur. ",
+			"program": "Masters of Sc. in Electrical Engineering",
+			"tel":"+250788569511",
+			"info":"https://www.linkedin.com/in/david-butera-872347180/"
+		},
+
+		{
+			"name":"Eric Serge",
+			"picture":"Severus_Snape.jpg",
+			"bio":"I am an experienced software developer since 2011. I do programming in PHP, MySQL, JavaScript, Java, Python, C/C++ and Visual Basic. I have developed different web application in the field of business, education, health, etc. Aside of programming I teach. ",
+			"program": "Masters of Sc. in Information Technology",
+			"tel":"+250788662656",
+			"info":"https://www.linkedin.com/in/ufashinkiko/"
+		}
+	]
+}
