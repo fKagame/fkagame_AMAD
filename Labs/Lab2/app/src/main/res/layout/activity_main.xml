@@ -1,19 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/city_image"
+        android:layout_width="413dp"
+        android:layout_height="275dp"
+        android:contentDescription="landmark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/nairobi" />
+
     <TextView
+        android:id="@+id/city_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/firstRed"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="   Welcome to East African Cities' weather"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/city_image"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/spinner_city"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/city_name"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+         />
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/firstRed"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="Description"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        app:layout_constraintTop_toBottomOf="@id/spinner_city"
+        />
+    <TextView
+        android:id="@+id/txt_descr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/firstRed"
+        android:text="description"
+        app:layout_constraintTop_toBottomOf="@id/label1"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:id="@+id/txt_wind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/firstRed"
+        android:text="wind direction"
+        app:layout_constraintTop_toBottomOf="@id/txt_descr"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt_sun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/firstRed"
+        android:text="Sun rise"
+        app:layout_constraintTop_toBottomOf="@id/txt_wind"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/weather_icon"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:adjustViewBounds="true"
+        android:contentDescription="landmark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_sun"
+        app:srcCompat="@drawable/cloud" />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Lab2</string>
+    <string name="app_name">EAWeather</string>
+    <string name="landmark">landMark</string>
+    <string-array name="EACities">
+        <item>kigali</item>
+        <item>Dar es Salama</item>
+        <item>kampala</item>
+        <item>nairobi</item>
+        <item>bujumbura</item>
+        <item>mombasa</item>
+    </string-array>
 </resources>
