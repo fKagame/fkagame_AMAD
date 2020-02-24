@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CMU2020</string>
+    <string name="action_delete">Clear List</string>
+</resources>
