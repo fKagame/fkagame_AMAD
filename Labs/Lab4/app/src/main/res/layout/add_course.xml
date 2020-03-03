@@ -4,28 +4,28 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <EditText
-        android:id="@+id/editTName"
+        android:id="@+id/add_course"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Name"/>
+        android:hint="Course Name"/>
 
     <EditText
-        android:id="@+id/editProgram"
+        android:id="@+id/add_professor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Program" />
+        android:hint="Instructor" />
 
     <EditText
-        android:id="@+id/editNationality"
+        android:id="@+id/add_semester"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Nationality" />
+        android:hint="Semester offered in" />
+
 </LinearLayout>

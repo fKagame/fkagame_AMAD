@@ -37,7 +37,8 @@ public class MainActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
        FloatingActionButton fab = findViewById(R.id.addStudent);
-        fab.setOnClickListener(new View.OnClickListener() {
+        fab.setOnClickListener(new View.OnClickListener()
+        {
             @Override
             public void onClick(final View view)
             {
